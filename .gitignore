@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit config (optional to ignore, but we keep config.toml)
+.streamlit/cache
+.streamlit/credentials.toml
+
+# Hugging Face and model weights (Crucial to avoid GitHub size limit)
+best_viso_bert_balanced/model.safetensors
+best_viso_bert_balanced/*.bin
+best_viso_bert_balanced/*.bin.index.json
+best_viso_bert_balanced/pytorch_model.bin
+
+# Training checkpoints and results
+results/
+checkpoint-*/
+
+# Excel/CSV data files (Optional: keep if you want to upload default data, ignore if data is too heavy)
+# data/
+# *.csv
+# *.xlsx
